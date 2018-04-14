@@ -1,24 +1,29 @@
 # explore-india
-This application is a collaborative project made by the Google Udacity Android Developer Scholars.
+This Application is a collaborative project made by the Google Udacity Android Developer Scholars.
 
 ## Features
 
-1) Awesome places (Location base or Interest based)
+1) Awesome places (Location based or Interest-based)
 2) Places photos
-3) Famous (Food, story, culture, etc)
+3) Famous (Food, Story, Culture, etc)
 4) Giving Google Map API to give directions.
-5) Places type ( Picnic, Tracking, Beach)
-6) audience (Family, Friends, Couple, etc)
+5) Place type ( Picnic, Tracking, Beach)
+6) Audience (Family, Friends, Couple, etc)
 
-When app is launched first time user will sent to welcome screen, to introduce app.. get permissions (Like Location). then location access given will show famous places nearby ( as per users interest) or can swipe up and have state list.
+When the Application is launched for the first time, The user will be sent to welcome screen to introduce app, and to get permissions (Like Location). Then, Location Access given will show famous places nearby (as per users interest) or can swipe up and have state list. If Location Access is not given, They will be showed the state/city selector activity.
 
-in state wise view user in top will get top locations in that state. scrolling up will give user cities list. with places name in small fonts..
+In state wise view, a user in the top will get top locations in that state. Scrolling up will give user cities list, with places name in small fonts.
 
 City participants can make their own layout for their city.
 
 If you have any feature suggestion for Explore India App. Fill this short form [here][5].
 You can add your responses multiple times.
 You can read all responses [here][6]
+
+
+## Google-services.json
+
+When you compile the Application, It will give an error that google-services.json cannot be found. The file is not supposed to be added to git to avoid getting spam attacks. You can find this file in pinned messages in #cp_explore_india Channel. Put it in this path -        `\explore-india\app\google-services.json`
 
 
 
@@ -30,7 +35,7 @@ Contributions are welcome!
 If you need any help, please contact us on slack at channel #
 
 1. Check out our [public issues board][0]. If your issue isn't on the board, [open a new one][1].
-2. Pick an issue that nobody has claimed and start working on it. 
+2. Wait for mods to assign you an issue. 
 3. Fork the project ([Need help forking a project?][3]). You'll do all of your work on your forked copy.
 4. Create a branch specific to the issue or feature you are working on. Push your work on that branch ([Need help with branching?][4]).
 5. Name the branch something like `fixes-xxx-issue` or `add-xxx-feature` where `xxx` is a short description of the changes or feature you are adding.
